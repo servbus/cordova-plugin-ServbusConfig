@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-ServbusConfig",
+  "version": "0.0.1",
+  "description": "ServbusConfig",
+  "cordova": {
+    "id": "cordova-plugin-ServbusConfig",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/servbus/cordova-plugin-ServbusConfig.git"
+  },
+  "keywords": [],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=7.1.0"
+    }
+  ],
+  "author": "servbus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/servbus/cordova-plugin-ServbusConfig/issues"
+  },
+  "homepage": "https://github.com/servbus/cordova-plugin-ServbusConfig#readme",
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}

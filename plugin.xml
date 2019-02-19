@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-ServbusConfig" version="0.0.1">
+  <name>ServbusConfig</name>
+  <description>ServbusConfig</description>
+  <license>apache</license>
+  <repo>https://github.com/servbus/cordova-plugin-ServbusConfig.git</repo>
+  <issue>https://github.com/servbus/cordova-plugin-ServbusConfig.git/issues</issue>
+  <engines>
+    <engine name="cordova" version=">=7.1.0"/>
+  </engines>
+  <platform name="ios">
+    <config-file target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
+      <false/>
+    </config-file>
+  </platform>
+    <platform name="android">
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <!--全面屏适配-->
+            <meta-data android:name="android.max_aspect" android:value="2.1" />
+        </config-file>
+    </platform>
+</plugin>
